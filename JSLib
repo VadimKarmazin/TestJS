@@ -1359,7 +1359,7 @@ mpld3_Toolbar.prototype.draw = function() {
     opacity: .6
   });
   function showButtons() {
-    this.buttonsobj.transition(750).attr("y", 0);
+    this.buttonsobj.transition(0).attr("y", 0);
   }
   function hideButtons() {
     this.buttonsobj.transition(750).delay(250).attr("y", 16);
